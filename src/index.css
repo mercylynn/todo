@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Serif',
+    serif;
+  ;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav {
+  height: 8vh;
+  background-color: blue;
+
+
+}
+
+.nav p {
+  text-align: center;
+  font-size: 2rem;
+
+
+}
+
+.todo {
+
+  background: #e8e8e8;
+  border-radius: 4px;
+  max-width: 100vh;
+  padding: 5px;
+
+
+
+}
+
+.input {
+  margin-top: 10px;
+  margin-left: 30%;
+  width: 30%;
+  border-radius: 5px;
+  outline: none;
+  height: 30px;
+}
+
+.btn {
+  height: 35px;
+  width: 80px;
+  background-color: dimgrey;
+  margin-left: .5px;
+}
+
+.todotask {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+
+}
